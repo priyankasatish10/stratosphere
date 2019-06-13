@@ -11,12 +11,12 @@ import sys
 
 
 #This is the super secret information
-access_token = "1116427206874419200-VBEb7qwPAmO6C4MJDSlkKHawoSb5JW"
-access_token_secret = "LVQOcBlrFmjMMI47uZt4AYvjEHv2laXznD0zrJyvz7Jmx"
-consumer_key = "6pB1GfnrSvOg6emWnJn1zvuvO"
-consumer_secret = "Hht2zmPKKDLVfyI2zupL37SQTgzaIFKw3AwGxsRjMcsEzU0vi9"
-aws_key_id =  "AKIASERF2GZL6V3G5SID"
-aws_key = "hRr74UWlN6nun/2Ob09XxRjjgP4bC43Fggih94iF"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
+aws_key_id =  ""
+aws_key = ""
 DeliveryStreamName = 'TwitterStreaming'
 client = boto3.client('firehose', region_name='us-east-1',
                           aws_access_key_id=aws_key_id,
