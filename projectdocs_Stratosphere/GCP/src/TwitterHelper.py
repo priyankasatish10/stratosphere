@@ -58,10 +58,10 @@ class StdOutListener(StreamListener):
 
 def tweets_getter():
 
-    TWITTER_APP_KEY = 'OvYWp33Qoh75Bqmu25va7AVwV'
-    TWITTER_APP_SECRET_KEY = '12duj5j4VaNSBOjgbyIDvNVFrYwpDnzGEr3879woAjnbFd64e2'
-    TWITTER_ACCESS_TOKEN = '1118948324986351619-8z7DPA8ouYwmyZg9iNrpffoKNJGW5I'
-    TWITTER_TOKEN_SECRET = 'Aus32bnB8LqJdPrvWyBoSnUQpw28wXEu2yvHh61e2eQMq'
+    TWITTER_APP_KEY = ''
+    TWITTER_APP_SECRET_KEY = ''
+    TWITTER_ACCESS_TOKEN = ''
+    TWITTER_TOKEN_SECRET = ''
     # api = twitter.Api(consumer_key=TWITTER_APP_KEY, consumer_secret=TWITTER_APP_SECRET_KEY,
     #                  access_token_key=TWITTER_ACCESS_TOKEN, access_token_secret=TWITTER_TOKEN_SECRET,
     #                  tweet_mode='extended')
